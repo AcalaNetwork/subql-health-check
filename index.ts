@@ -39,7 +39,7 @@ const check = async () => {
       }
     `)
 
-    strings += `- name: ${item.name}, ${queryData._metadata.lastProcessedHeight}/${queryData._metadata.targetHeight} ${queryData._metadata.indexerHealthy ? 'healthy' : 'not healthy'}`
+    strings += `- name: ${item.name}, ${queryData._metadata.lastProcessedHeight}/${queryData._metadata.targetHeight} ${queryData._metadata.indexerHealthy ? 'healthy' : 'not healthy'} \n`
 
   }))
 
